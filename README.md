@@ -17,3 +17,5 @@
 2) loop keeps iterating, when counter = 0 and start = 0, we initialize start = current index and update end value of current index and break out of that loop, but I have nestedloops so it would still preserve the index after break in the inner most loop
 3) in the next iterating innermost loop would start from the next index (due to same nested loops) , from which we break the loop in last iteration
 4) Major difficulty I faced in this was how to preserve the index value after using a break statement
+5) 
+<img width="878" alt="Screenshot 2024-10-21 at 10 42 08 PM" src="https://github.com/user-attachments/assets/eb1e68ce-05c4-4d00-b051-04ac3fe9f14e">
