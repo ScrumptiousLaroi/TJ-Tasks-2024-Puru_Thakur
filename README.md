@@ -26,3 +26,5 @@
 3) for last char type, i initalize a last_char variable which would always update to +1 (in every iteration when the list is continuous wrt to previous element) but it will append to string s only when index is on its last iteration
 4) on the last iteration I add an extra 1 to last_char since indexing is done from 0 and we need count
 5) Problem I faced solving this was on how to handle the last char type and how to handle case when count is >= 10
+6) <img width="897" alt="Screenshot 2024-10-21 at 11 06 28 PM" src="https://github.com/user-attachments/assets/9100ed46-7be0-42fc-98e3-2133e917a88e">
+
