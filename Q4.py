@@ -10,12 +10,11 @@ def compress(chars):
        k = 0
        for i in range(1, len(chars)):  
         if chars[i] != chars[i - 1]:   
-            k = i - k 
-            counter = k
+            counter = i - counter  #when ever there is a discontinuity, we subtract counter from current index to get number of times that char was in list
             if counter == 1:
                 s.append(chars[i+1])
                 last_char = 0
-            elif counter < 10 and counter != 1:
+            else:
                 s.append(counter)
                 s.append(chars[i+1])
                 last_char = 0 #since char got appended in this loop its clearly not the last char case so last_char is dismissed

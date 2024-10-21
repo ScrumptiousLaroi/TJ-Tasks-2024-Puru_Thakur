@@ -19,3 +19,10 @@
 4) Major difficulty I faced in this was how to preserve the index value after using a break statement
 5) 
 <img width="878" alt="Screenshot 2024-10-21 at 10 42 08 PM" src="https://github.com/user-attachments/assets/eb1e68ce-05c4-4d00-b051-04ac3fe9f14e">
+
+### Q4. String Compression
+1) For this I initialized an empty string and took care of first case where a single element is present so I dont have to print 1 in the compressed string just the element char I did that by checking if first and last statement is equal or not
+2) In other cases , i initialized a counter varible which subtracts from index i(when there is a discontinuity in list) this gives count of the character in the list
+3) for last char type, i initalize a last_char variable which would always update to +1 (in every iteration when the list is continuous wrt to previous element) but it will append to string s only when index is on its last iteration
+4) on the last iteration I add an extra 1 to last_char since indexing is done from 0 and we need count
+5) Problem I faced solving this was on how to handle the last char type and how to handle case when count is >= 10
