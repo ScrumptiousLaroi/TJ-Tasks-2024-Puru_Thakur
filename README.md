@@ -13,4 +13,7 @@
 <img width="793" alt="Screenshot 2024-10-16 at 8 12 36 PM" src="https://github.com/user-attachments/assets/2f7ce764-496e-4120-b86d-0262f7a3acc7"> Here number of stairs = 5
 
 ### Q3 Find starting and ending position of a given target value in an sorted array
-1)
+1) in this we initialize the starting index in start variable but we kept updating the ending index in end variable till the end
+2) loop keeps iterating, when counter = 0 and start = 0, we initialize start = current index and update end value of current index and break out of that loop, but I have nestedloops so it would still preserve the index after break in the inner most loop
+3) in the next iterating innermost loop would start from the next index (due to same nested loops) , from which we break the loop in last iteration
+4) Major difficulty I faced in this was how to preserve the index value after using a break statement
